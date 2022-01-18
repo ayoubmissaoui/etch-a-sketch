@@ -1,21 +1,27 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 
 #grid {
+    box-sizing: content-box;
     display: flex;
     flex-wrap: wrap;
-    height: 800px;
     width: 800px;
-    border:solid black 1px;
+    height: 800px;
 }
 
-.box {
-    display: flex;
+div  {
     box-sizing: border-box;
     width: 50px;
-    height: 50px;
-    border: solid black 1px;
+    height: 50px;    
+    border: 1px solid black;
+
+}
+
+.hover {
+    background-color: black;
 }

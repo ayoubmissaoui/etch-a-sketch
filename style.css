@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 944px;
+    width: 944px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+div {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 55px;
+    width: 55px;
+}
+
+div {
+    border: 2px solid black;
+}

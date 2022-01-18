@@ -1,20 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #D6D2D2;
+    font-family: 'Epilogue','Inter','Sora',sans-serif;
+    text-align: center;
+}
+
+#stronger {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#instructions {
+    border-bottom: black solid 1px;
+}
+
+#container {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.header {
+    width: 50px;
 }
 
 #grid {
     box-sizing: content-box;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-evenly;
     width: 800px;
     height: 800px;
+    border: 1px solid black;
 }
 
-div  {
+
+
+div .box {
     box-sizing: border-box;
     width: 50px;
     height: 50px;    
@@ -24,4 +52,13 @@ div  {
 
 .hover {
     background-color: black;
+}
+
+button {
+    border-radius: 15%;
+    background-color: D6D2D2;
+    border-color: black;
+    border-style: solid;
+    height: 25px;
+    width: 50px;
 }

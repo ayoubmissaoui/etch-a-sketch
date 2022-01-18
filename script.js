@@ -8,5 +8,6 @@ function makeCells (){
         console.log("added");
     }
 }
+
 makeCells()
 

@@ -6,21 +6,24 @@ body {
 #grid {
     display: flex;
     flex-wrap: wrap;
-    height: 944px;
-    width: 944px;
+    align-content: space-around;
+    justify-content: space-around;
+    height: 672px;
+    width: 672px;
     padding: 0;
     margin: 0;
     border: 0;
+    gap: 0;
 }
 
 div {
     display: flex;
     padding: 0;
     margin: 0;
-    height: 55px;
-    width: 55px;
+    height: 40px;
+    width: 40px;
 }
 
 div {
-    border: 2px solid black;
+    border: 1px solid black;
 }
